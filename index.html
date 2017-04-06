@@ -1,0 +1,60 @@
+<!doctype html>
+<html>
+
+<head>
+    <meta charset="utf-8">
+    <title>Music</title>
+    <base href="/">
+
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link rel="icon" type="image/x-icon" href="favicon.ico">
+<link href="styles.e7838668b1190f2c1999.bundle.css" rel="stylesheet"/></head>
+
+<body>
+       <pt-root>
+        <style>
+            pt-root {
+                display: flex;
+                justify-content: center;
+                align-items: center;
+                height: 100vh;
+                color: #fff;
+                text-transform: uppercase;
+                font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Oxygen-Sans, Ubuntu, Cantarell, Helvetica, sans-serif;
+                font-size: 2.5em;
+                text-shadow: 2px 2px 10px rgba(0, 0, 0, 0.2);
+            }
+            
+            body {
+                background: #a5140e;
+                margin: 0;
+                padding: 0;
+            }
+            
+            @keyframes dots {
+                50% {
+                    transform: translateY(-.4rem);
+                }
+                100% {
+                    transform: translateY(0);
+                }
+            }
+            
+            .d {
+                animation: dots 1.5s ease-out infinite;
+            }
+            
+            .d-2 {
+                animation-delay: .5s;
+            }
+            
+            .d-3 {
+                animation-delay: 1s;
+            }
+        </style>
+
+        Loading<span class="d">.</span><span class="d d-2">.</span><span class="d d-3">.</span>
+    </pt-root>
+<script type="text/javascript" src="inline.39aeccbb4cbfc5554e50.bundle.js"></script><script type="text/javascript" src="polyfills.dee1ae33fa5526b44e1a.bundle.js"></script><script type="text/javascript" src="vendor.1b23cd5ff929aa417db0.bundle.js"></script><script type="text/javascript" src="main.11c62f5868a0de00ecab.bundle.js"></script></body>
+
+</html>
